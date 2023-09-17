@@ -276,10 +276,96 @@ price p {
     box-shadow: none;
 }
 
+footer {
+    color: #C5C5C5;
+    font-family: ya_text_regular;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-decoration-line: underline;
+    margin: 32px;
+    margin-bottom: 88px;
+}
+
 .none {
     display: none;
 }
 
 .block {
     display: block;
+}
+
+@media (min-width: 375px) {
+    .image_1 {
+        height: 83px;
+    }
+
+    .image_2 {
+        width: 456px;
+        height: 108px;
+        background: url("./image/img_2.png") no-repeat;
+        background-size: 100%;
+    }
+
+    .image_3 {
+        width: 456px;
+        height: 128px;
+        background: url("./image/img_3.png") no-repeat;
+        background-size: 100%;
+    }
+
+    .image_4 {
+        width: 456px;
+        height: 105px;
+        background: url("./image/img_4.png") no-repeat;
+        background-size: 100%;
+    }
+
+    .element_slider {
+        width: 79.721px;
+        height: 65.418px;
+        transform: rotate(-5.264deg);
+        background: url("./image/slider_image/element_slider_img.png") no-repeat;
+        background-size: 100%;
+        position: absolute;
+        right: 15px;
+        margin-top: -40px;
+        margin-right: 27px;
+    }
+
+    .image_slider_1 {
+        width: 244px;
+        height: 244px;
+        background: url("./image/slider_image/img_1.png") no-repeat;
+        background-size: 100%;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .arrows {
+        margin-top: 30px;
+    }
+
+    .image_last {
+        margin: auto;
+    }
+
+    .btn_want_buy {
+        display: flex;
+        width: 86%;
+        padding: 18px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: 36px;
+        background: #FFDE40;
+        box-shadow: 0 4px 64px 0 rgba(255, 222, 64, 0.59);
+        font-family: ya_text_medium;
+        margin: 32px;
+        position: fixed;
+        bottom: 0;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
 }
