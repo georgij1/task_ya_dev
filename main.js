@@ -182,3 +182,7 @@ document.querySelector('.arrow_back').addEventListener('click', () => {
 
     console.log("i", i)
 })
+
+document.querySelector('body').oncontextmenu = function () {
+    return false
+}
